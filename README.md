@@ -1,6 +1,6 @@
 # java-magic
-   abstract class Animal{
-    public abstract void animalSound();
+      abstract class Animal{
+      public abstract void animalSound();
     public void sleep(){
         System.out.println("zee");
     }
