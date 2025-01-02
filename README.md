@@ -39,3 +39,26 @@
 
         }
         }
+
+        public class Main {
+         enum Food {
+        MANGO,
+        LEMON,
+        BANANA
+        }
+    
+
+        public static void main(String[] args) {
+        Food callFood = Food.MANGO;
+        System.out.println(callFood);
+        // wrapper object make java fully obj oriented as data type use as 
+             obj
+        Integer myInt = 2;
+        Double myDouble = 2.0;
+        System.out.println(myInt);
+        System.out.println(myDouble);
+        System.out.print("Hello and welcome!");
+
+
+        }
+        }
